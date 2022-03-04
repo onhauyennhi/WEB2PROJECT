@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Open+Sans:wght@400;600;800&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/cart.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-left">
+                <h2>DVN'S CELLPHONES</h2>
+            </div>
+            <div class="header-right">
+                <div class="header-right-top">
+                    <ul class="main-menu">
+                        <li><a href="">Sản phẩm<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="">Apple</a></li>
+                                <li><a href="">Oppo</a></li>
+                                <li><a href="">Samsung</a></li>
+                                <li><a href="">Vivo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="">Đăng nhập</a></li>
+                    </ul>
+                </div>
+                <div class="header-right-bottom">
+                    <ul class="header-right-bottom-content">
+
+                        <li class="header-search">
+                            <input type="search" placeholder="Bạn cần tìm gì?">
+                            <label class="search-icon">
+                                <span class="fas fa-search"></span>
+                            </label>
+                        </li>
+                        <li class="header-hotline">
+                            <h3>Hotline hỗ trợ</h3>
+                            <p>0828098274</p>
+                        </li>
+                        <li class="header-cart">
+                            <span class="fas fa-shopping-cart"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-cart">
+                <div class="content-cart-top">
+                    <p><a href="../index.html" class="fa-solid fa-house"></a></p><span
+                        class="fa-solid fa-angle-right"></span><a href="cart.html">Giỏ Hàng</a>
+                </div>
+                <div class="content-cart-content">
+                    <div class="content-cart-content-left">
+                        <div class="content-cart-content-text">
+                            <h2>Giỏ Hàng</h2>
+                            <p>Xoá tất cả</p>
+                        </div>
+                        <div class="content-cart-content-table">
+                            <div class="cart-content-table-head">
+                                <div class="cart-content-title">
+                                    <h2>Tổng tiền</h2>
+                                </div>
+                                <div class="cart-content-total-price">
+                                    <p>60.000.000<span>VNĐ</span></p>
+                                </div>
+                            </div>
+                            <div class="cart-content-table-product">
+                                <div class="img-product-cart">
+                                    <img src="../images/samsung-galaxy-z-fold-3-silver-1-600x600.jpg" alt="">
+                                </div>
+                                <div class="name-product-cart">
+                                    <p class="name-product">SamSung Galaxy Z Fold 3 Silver 1</p>
+                                    <p>ID:12345</p>
+                                </div>
+                                <div class="quantity-product-cart">
+                                    <input type="number" value="1" min="0">
+                                    <span class="fa-solid fa-trash"></span>
+                                </div>
+                                <div class="price-product-cart">
+                                    <p>30.000.000<span>VNĐ</span></p>
+                                </div>
+                            </div>
+                            <div class="cart-content-table-product">
+                                <div class="img-product-cart">
+                                    <img src="../images/samsung-galaxy-z-fold-3-silver-1-600x600.jpg" alt="">
+                                </div>
+                                <div class="name-product-cart">
+                                    <p class="name-product">SamSung Galaxy Z Fold 3 Silver 1</p>
+                                    <p>ID:12345</p>
+                                </div>
+                                <div class="quantity-product-cart">
+                                    <input type="number" value="1" min="0">
+                                    <span class="fa-solid fa-trash"></span>
+                                </div>
+                                <div class="price-product-cart">
+                                    <p>30.000.000<span>VNĐ</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="content-cart-content-right">
+                        <div class="content-cart-content-right-bill">
+                            <div class="content-cart-content-right-bill-title">
+                                <h2>Hoá đơn tạm tính</h2>
+                            </div>
+                            <div class="content-bill">
+                                <p class="temp-bill">Tạm tính</p>
+                                <p id="temp-bill">60.000.000<span>VNĐ</span></p>
+                            </div>
+                            <div class="content-bill">
+                                <p class="total-bill">Thành tiền</p>
+                                <p id="total-bill">60.000.000<span>VNĐ</span></p>
+                            </div>
+                            <div class="content-bill-button">
+                                <button>THANH TOÁN</button>
+                            </div>
+                        </div>
+                        <div class="content-cart-content-continuebuy">
+                            <button>TIẾP TỤC MUA HÀNG</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-card-recommend">
+                <div class="content-card-recommend-title">
+                    <h2>CÁC SẢN PHẨM LIÊN QUAN</h2>
+                </div>
+
+                <div class="content-card-recommend-product">
+                    <span class="fa-solid fa-chevron-left"></span>
+                    <div class="product-card">
+                        <img src="../images/samsung-galaxy-z-fold-3-silver-1-600x600.jpg" alt="">
+                        <h3>SamSung</h3>
+                        <p>30.000.000VNĐ</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="../images/samsung-galaxy-z-fold-3-silver-1-600x600.jpg" alt="">
+                        <h3>SamSung</h3>
+                        <p>30.000.000VNĐ</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="../images/samsung-galaxy-z-fold-3-silver-1-600x600.jpg" alt="">
+                        <h3>SamSung</h3>
+                        <p>30.000.000VNĐ</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="../images/samsung-galaxy-z-fold-3-silver-1-600x600.jpg" alt="">
+                        <h3>SamSung</h3>
+                        <p>30.000.000VNĐ</p>
+                    </div>
+                    <span class="fa-solid fa-chevron-right"></span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h3>Hỗ trợ khách hàng</h3>
+                    <ul>
+                        <li><a href="">Trung tâm bảo hành</a></li>
+                        <li><a href="">Thanh toán và giao hàng</a></li>
+                        <li><a href="">Dịch vụ bảo trì</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Về DVN's CellPhones</h3>
+                    <ul>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="">Q&A</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Chính sách</h3>
+                    <ul>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Chính sách vận chuyển</a></li>
+                        <li><a href="">Chính sách đổi trả</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Theo dõi chúng tôi</h3>
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook"></i>Facebook</a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i>Twitter</a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i>Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
